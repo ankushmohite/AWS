@@ -13,13 +13,13 @@ An IAM User is a permanent identity that can have long-term credentials.
 An IAM Role provides temporary permissions. It is commonly used for service-to-service communication, such as allowing an EC2 instance to access an S3 bucket.
 
 
-1.How can i give S3 bucket permission access to the user.
+1. How can i give S3 bucket permission access to the user.
 
 We will create S3 bucket permission polity with specify the bucket ARN. then allow required permission such as list object, view object, read object, Put and Get object permission. 
 So, user can access S3 bucket securely without deleting any object.
 
 
-2.I want to give S3 bucket permission access to the Ec2 instance. 
+2. How can i give S3 bucket permission access to the Ec2 instance. 
 
 I create an IAM role for EC2. then attach S3 bucket permission polity with specify the bucket. then ARN. then assign the role to the EC2 instance. then instance can access S3 bucket securely.
 
