@@ -11,3 +11,18 @@ An IAM User is a permanent identity that can have long-term credentials.
 
 ## IAM Role
 An IAM Role provides temporary permissions. It is commonly used for service-to-service communication, such as allowing an EC2 instance to access an S3 bucket.
+
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/9ffe238e-6a3f-4d29-838b-e0ce7689274b" />
+
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b25747f3-0bdb-4f3c-ba4d-99d3cb32118d" />
+
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/329a4654-fabc-4e2f-8438-371810e25ce9" />
+
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/e098978d-83b1-44d1-ac77-1a5c2fbcab2d" />
+
+
+
