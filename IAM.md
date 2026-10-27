@@ -1,11 +1,13 @@
-IAM.
+
+# AWS IAM
 
 AWS IAM (Identity and Access Management) is an AWS service used to control who can access AWS resources and what actions they can perform.
 
-USER: User is nothing but the identity which will represent the person.
+## User
+A user is an identity that represents a person.
 
-IAM USER:
-IAM user is a permanent identity with term credentials.
+## IAM User
+An IAM User is a permanent identity that can have long-term credentials.
 
-IAM ROLE:
-IAM Role is temporarily acces. Is user for service to service connection.
+## IAM Role
+An IAM Role provides temporary permissions. It is commonly used for service-to-service communication, such as allowing an EC2 instance to access an S3 bucket.
