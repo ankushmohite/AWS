@@ -11,7 +11,11 @@ Goto ALB Attributer Section. Then Enable edit option.
 
 <img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/1239a4da-d092-4ee0-a2ca-f0fe0239cc64" />
 
+
+
 <img width="940" height="380" alt="image" src="https://github.com/user-attachments/assets/a3637c23-9023-453b-8eea-52fed39fd766" />
+
+
 
 Then Select Created S3 Bucket.
 
@@ -20,6 +24,8 @@ Optional.
 
 
 <img width="940" height="194" alt="image" src="https://github.com/user-attachments/assets/09ec202b-6047-4302-8558-456a6d684f61" />
+
+
 
 Step:2
 Create a Private S3 bucket.
@@ -40,6 +46,28 @@ Goto S3 bucket permission.
 
 
 <img width="940" height="344" alt="image" src="https://github.com/user-attachments/assets/111a6be1-4cac-47ac-8138-0f90358121e3" />
+
+"Version": "2012-10-17",
+
+"Statement": [
+
+    {
+
+        "Effect": "Allow",
+
+        "Principal": {
+
+            "Service": "logdelivery.elasticloadbalancing.amazonaws.com"
+
+        },
+
+        "Action": "s3:PutObject",
+
+        "Resource": "arn:aws:s3:::alb-logs-ankush/AWSLogs/180961898054/*"
+
+    }
+
+]
 
 
 
