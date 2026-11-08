@@ -17,3 +17,11 @@ If the current value goes above threshold value.
 
 3. Insufficient data:
 It still collecting the data.
+
+
+Amazon CloudWatch Events:
+
+Amazon CloudWatch Events is a service in AWS that automatically detects when something happens in your AWS environment and triggers an action.
+
+When an EC2 instance starts and stops, CloudWatch Events detects it.
+Based on that event, it can trigger an action, such as sending a notification through SNS.
