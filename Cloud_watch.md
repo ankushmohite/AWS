@@ -31,20 +31,19 @@ Based on that event, it can trigger an action, such as sending a notification th
 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/4004ef61-df3d-411f-8f9d-d030112a4b67" />
 
+
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/d0731afa-d061-43f9-813f-cdc8a01d3c1f" />
+
 
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/954af539-a940-405d-8fcd-8684f932648c" />
 
 
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/6fe26131-24bc-4c21-8d35-55347ed3b2ca" />
+
+
 
 ## Cloud Watch Events:
-
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/a50f2a58-0981-4aac-a9fa-13699c7ca3df" />
-
-
-
-
-<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/6fe26131-24bc-4c21-8d35-55347ed3b2ca" />
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/303ce53d-86b8-44a2-9e1e-49195cf4b1af" />
 
 
 
