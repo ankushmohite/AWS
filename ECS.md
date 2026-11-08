@@ -17,6 +17,8 @@ Create a request to add domain name --> DNS Validation --> RSA2048.
 
 # ECS:
 
+ECS is fully manage container orchestration service. which makes easy to run and deploy docker container on cloud.
+
 1. **Create a Cluster (Region specific)**
 
 First we will give the name then select namespace.
