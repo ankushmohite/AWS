@@ -1,1 +1,83 @@
-AWS Console Step-by-Step (Screenshot Style) Instance Refresh Zero Downtime Step 1: Go to EC2 Console AWS Console → Services → EC2 Left Menu → Launch Templates Select your template Click → Actions → Create new version Update:- AMI ID (latest patched)- Instance config if needed- Save new version Step 2: Update Auto Scaling Group EC2 → Auto Scaling Groups Select your ASG Click → Edit Scroll → Launch Template Select → Latest Version Click → Update Step 3: Start Instance Refresh Inside ASG: Go to → Instance Refresh tab Click → Start Instance Refresh Configuration Screen (Important): Minimum Healthy Percentage: 100 Maximum Healthy Percentage: 200 Instance Warm-up: 180 seconds Click → Start Refresh Step 4: What You Will See (Live Flow) Activity Tab: Launching new EC2 instance... Instance entering InService... ECS agent connecting... Target group health check passing... Then: Terminating old instance... Step 5: Verify in ECS ECS → Cluster → Services Check:- New tasks starting- Old tasks stopping- No drop in running count Step 6: Verify in ALB EC2 → Target Groups → Targets tab Check:- New instances → healthy- Old instances → draining → removedFailure Scenario Screen If health check fails: Status: Failed Reason: Health check failed Action:- Fix AMI / App issue- Restart refresh Final Result- All EC2 instances replaced- Traffic uninterrupted- Zero downtime achieved
+   AWS Console Step-by-Step (Screenshot Style) –
+         Instance Refresh Zero Downtime:
+
+Step 1: Go to EC2 Console
+          AWS Console → Services → EC2
+          Left Menu → Launch Templates
+          Select your template
+          Click → Actions → Create new version
+
+Update:
+
+- AMI ID (latest patched)
+
+- Instance config if needed
+
+- Save new version
+
+Step 2: Update Auto Scaling Group
+
+          EC2 → Auto Scaling Groups
+          Select your ASG
+          Click → Edit
+          Scroll → Launch Template
+          Select → Latest Version
+          Click → Update
+
+Step 3: Start Instance Refresh
+
+          Inside ASG:
+          Go to → Instance Refresh tab
+          Click → Start Instance Refresh
+
+Configuration Screen (Important):
+
+          Minimum Healthy Percentage: 100
+          Maximum Healthy Percentage: 200
+          Instance Warm-up: 180 seconds
+          Click → Start Refresh
+
+Step 4: What You Will See (Live Flow)
+
+          Activity Tab:
+
+          Launching new EC2 instance...
+          Instance entering InService...
+          ECS agent connecting...
+          Target group health check passing...
+
+Then:
+          Terminating old instance...
+
+Step 5: Verify in ECS
+
+          ECS → Cluster → Services
+          Check:
+          - New tasks starting
+          - Old tasks stopping
+          - No drop in running count
+
+Step 6: Verify in ALB
+
+          EC2 → Target Groups → Targets tab
+          Check:
+          - New instances → healthy
+          - Old instances → draining → removed
+
+Failure Scenario Screen
+        If health check fails:
+
+        Status: Failed
+        Reason: Health check failed
+
+        Action:
+        - Fix AMI / App issue
+        - Restart refresh
+
+Final Result
+
+- All EC2 instances replaced
+
+- Traffic uninterrupted
+
+- Zero downtime achieved
