@@ -37,6 +37,13 @@ Based on that event, it can trigger an action, such as sending a notification th
 
 
 
+## Cloud Watch Events:
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/a50f2a58-0981-4aac-a9fa-13699c7ca3df" />
+
+
+
+
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/6fe26131-24bc-4c21-8d35-55347ed3b2ca" />
 
 
