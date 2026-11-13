@@ -17,3 +17,14 @@ Example: Uploading or downloading files from an S3 bucket.
 Used to identify unusual activities in your AWS account.
 
 Example: Suddenly, someone creates many EC2 instances.
+
+
+
+## CloudWatch Setup:
+First, we create a topic and suscriber for mail.
+
+Then, we create a CloudWatch Alarm. In the alarm, we define the EC2 instance ID, metric (CPU, Memory, etc.), threshold value, and alarm condition.
+
+Next, we create a CloudWatch Dashboard to visualize metrics like CPU utilization, memory, and disk usage.
+After that we create a cloudwatch event, in that event we create a rule and setup a multiple action target. target lets say SNS topic.
+
