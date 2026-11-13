@@ -51,4 +51,18 @@ Based on that event, it can trigger an action, such as sending a notification th
 
 
 
+## Cloud Watch Logs.
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/88f22ead-2352-4a09-8d9b-0deffbaebb27" />
+
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b5e6b952-e47e-4fce-8afd-45f8572ada2d" />
+
+
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b7c29aae-9dd8-4be8-a017-623513b7dea5" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/71c9421c-0ebb-4754-adc1-76ad828652a9" />
+
+
+
 
