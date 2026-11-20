@@ -1,6 +1,6 @@
 # Route53:
 
-Route53 is a domain name service use to and manage domain.
+Route53 is a domain name service use to register and manage domain.
 
 **Public Hosted Zone:** determine to route traffic on the internet.
 
