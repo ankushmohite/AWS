@@ -81,3 +81,9 @@ Final Result
 - Traffic uninterrupted
 
 - Zero downtime achieved
+
+First, I update the Launch Template with the latest AMI.
+Then, I update the Auto Scaling Group to use the new Launch Template version. Then click on Instance Refresh.
+Once the new instances pass health checks and become healthy in the ALB Target Group, AWS gradually terminates the old instances.
+
+This way, application traffic continues without interruption.
