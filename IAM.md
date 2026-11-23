@@ -21,7 +21,7 @@ So, user can access S3 bucket securely without deleting any object.
 
 2. How can i give S3 bucket permission access to the Ec2 instance. 
 
-I create an IAM role for EC2. then attach S3 bucket permission polity with specify the bucket. then ARN. then assign the role to the EC2 instance. then instance can access S3 bucket securely.
+I create an IAM role for EC2. then attach S3 bucket permission polity with specify the bucket with ARN. Then assign the role to the EC2 instance. then instance can access S3 bucket securely.
 
 
 
